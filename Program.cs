@@ -5,11 +5,10 @@
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the User Registration Page");
-            Console.WriteLine("Welcome to the User Registration Page");
-            validateemail eMail = new validateemail();
-            Console.WriteLine("Please enter the email:");
-            string email = Console.ReadLine();
-            Console.WriteLine(eMail.validateEmail(email));
+            validatemobilenum Mobilenumber = new validatemobilenum();
+            Console.WriteLine("Please enter the mobile number:");
+            String mobilNumber = Console.ReadLine();
+            Console.WriteLine(Mobilenumber.ValidatMoNumber(mobilNumber));
         }
     }
 }
