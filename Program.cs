@@ -5,10 +5,10 @@
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the User Registration Page");
-            validatemobilenum Mobilenumber = new validatemobilenum();
-            Console.WriteLine("Please enter the mobile number:");
-            String mobilNumber = Console.ReadLine();
-            Console.WriteLine(Mobilenumber.ValidatMoNumber(mobilNumber));
+            password1rule Password = new password1rule();
+            Console.WriteLine("Please enter password:");
+            string passWord = Console.ReadLine();
+            Console.WriteLine(Password.ValidatePassword(passWord));
         }
     }
 }
