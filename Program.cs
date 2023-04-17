@@ -5,11 +5,10 @@
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the User Registration Page");
-            passwordrule3 passWord = new passwordrule3();
-            Console.WriteLine("Please Enter Password:");
+            passwordrule4 passWord = new passwordrule4();
+            Console.WriteLine("Please enter password");
             string password = Console.ReadLine();
             Console.WriteLine(passWord.ValidatePassword(password));
-
         }
     }
 }
